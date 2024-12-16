@@ -2,49 +2,49 @@
 <template>
 <body style="background-color: bisque;">
     <div id="app">
-    <header>
-        <nav class="navbar navbar-expand-lg header-custom"  data-bs-theme="dark">
-            <div class="container-fluid">
-            <router-link class="navbar-brand" to="/"><img class="header-logo" src="https://images.pexels.com/photos/12801/pexels-photo-12801.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1=" alt="Logo"></router-link>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <router-link class="nav-link active" to="/Contacto">Contacto</router-link>
-                  </li>
-                  <li class="nav-item">
-                    <router-link class="nav-link active" to="/about">Acerca de</router-link>
-                  </li>
-                  <li class="nav-item">
-                    <router-link class="nav-link active" to="/Registro">Registro</router-link>
-                  </li>
-                  <li class="nav-item">
-                    <router-link class="nav-link active" to="/Login">Login</router-link>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Articulos</a>
-                    <ul class="dropdown-menu">
-                      <li><router-link class="nav-link active" to="/Alphine">Ferrari</router-link></li>
-                      <li><router-link class="nav-link active" to="/Williams">Williams</router-link></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><router-link class="nav-link active" to="/ArticulosColeccion">Articulos De Coleccion</router-link></li>
+        <header>
+            <nav class="navbar navbar-expand-lg header-custom"  data-bs-theme="dark">
+                <div class="container-fluid">
+                <router-link class="navbar-brand" to="/"><img class="header-logo" src="https://images.pexels.com/photos/12801/pexels-photo-12801.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1=" alt="Logo"></router-link>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <router-link class="nav-link active" to="/Contacto">Contacto</router-link>
+                      </li>
+                      <li class="nav-item">
+                        <router-link class="nav-link active" to="/about">Acerca de</router-link>
+                      </li>
+                      <li class="nav-item">
+                        <router-link class="nav-link active" to="/Registro">Registro</router-link>
+                      </li>
+                      <li class="nav-item">
+                        <router-link class="nav-link active" to="/Login">Login</router-link>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Articulos</a>
+                        <ul class="dropdown-menu">
+                          <li><router-link class="nav-link active" to="/Alphine">Ferrari</router-link></li>
+                          <li><router-link class="nav-link active" to="/Williams">Williams</router-link></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><router-link class="nav-link active" to="/ArticulosColeccion">Articulos De Coleccion</router-link></li>
+                        </ul>
+                    </li>
                     </ul>
-                </li>
-                </ul>
-                <div class="user-info">
-                    <a href="" class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></a>
-                    <img class="header-user" src="https://img.freepik.com/free-icon/user_318-159711.jpg" alt="">
+                    <div class="user-info">
+                        <a href="" class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <router-link to="/carrito"><img class="header-user" src="https://cdn-icons-png.flaticon.com/256/3144/3144456.png" alt=""></router-link>
+                    </div>
+                    <!--<form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-danger" type="submit">Buscar</button>
+                    </form>-->
+                  </div>
                 </div>
-                <!--<form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-danger" type="submit">Buscar</button>
-                </form>-->
-              </div>
-            </div>
-          </nav>
-    </header>
+              </nav>
+        </header>
   
     <h1 style="color: red;">Conocer a nuestro equipo</h1>
 

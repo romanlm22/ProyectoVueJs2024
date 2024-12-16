@@ -8,12 +8,28 @@ import Registro from '@/views/Registro.vue';
 import Alphine from '@/views/Alphine.vue';
 import Williams from '@/views/Williams.vue';
 import ArticulosColeccion from '@/views/ArticulosColeccion.vue';
+import ListaProductos from '@/views/ListaProductos.vue'
+import CarritoCompras from '@/views/CarritoCompras.vue'
+import ListaProductosAlphine from '@/views/ListaProductosAlphine.vue';
+import ListaProductosWilliams from '@/views/ListaProductosWilliams.vue';
+import ListaProductosArticulosColeccion from '@/views/ListaProductosArticulosColeccion.vue';
+
 
 const routes = [
   {
     path: '/', // Ruta predeterminada
     name: 'Home',
     component: Home, // Página asociada
+    children: [
+      {
+        path: '',
+        component: ListaProductos, // Vista inicial cuando no hay ruta específica
+      },
+      {
+        path: 'carrito',
+        component: CarritoCompras, // Vista del carrito
+      },
+    ]
   },
   {
     path: '/about', // Otra ruta
@@ -39,17 +55,48 @@ const routes = [
     path: '/alphine', // Otra ruta
     name: 'Alphine',
     component: Alphine,
+    children: [
+      {
+        path: '',
+        component: ListaProductosAlphine, // Vista inicial cuando no hay ruta específica
+      },
+      {
+        path: 'carrito',
+        component: CarritoCompras, // Vista del carrito
+      },
+    ]
   },
   {
     path: '/williams', // Otra ruta
     name: 'Williams',
     component: Williams,
+    children: [
+      {
+        path: '',
+        component: ListaProductosWilliams, // Vista inicial cuando no hay ruta específica
+      },
+      {
+        path: 'carrito',
+        component: CarritoCompras, // Vista del carrito
+      },
+    ]
   },
   {
     path: '/articuloscoleccion', // Otra ruta
     name: 'ArticulosColeccion',
     component: ArticulosColeccion,
+    children: [
+      {
+        path: '',
+        component: ListaProductosArticulosColeccion, // Vista inicial cuando no hay ruta específica
+      },
+      {
+        path: 'carrito',
+        component: CarritoCompras, // Vista del carrito
+      },
+    ]
   },
+  
 ];
 
 const router = createRouter({
