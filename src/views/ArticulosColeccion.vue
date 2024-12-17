@@ -36,10 +36,6 @@
                         <a href="" class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></a>
                         <router-link to="/carrito"><img class="header-user" src="https://cdn-icons-png.flaticon.com/256/3144/3144456.png" alt=""></router-link>
                     </div>
-                    <!--<form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-danger" type="submit">Buscar</button>
-                    </form>-->
                   </div>
                 </div>
               </nav>
@@ -61,7 +57,7 @@
   
   
       <div id="articulosColeccion">
-      <router-view /> <!-- Aquí se cargará la vista correspondiente -->
+      <router-view /> 
     </div>
     
   <div class="whatsapp-container">

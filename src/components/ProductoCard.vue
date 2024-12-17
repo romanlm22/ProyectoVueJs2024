@@ -39,12 +39,12 @@
     background-color: white;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 250px; /* Ajustamos el ancho */
+    width: 250px; 
     margin: 20px;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
-    display: flex; /* Usamos Flexbox para organizar el contenido de manera más flexible */
+    display: flex; 
     flex-direction: column;
     justify-content: space-between;
   }

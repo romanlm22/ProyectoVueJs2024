@@ -17,82 +17,82 @@ import ListaProductosArticulosColeccion from '@/views/ListaProductosArticulosCol
 
 const routes = [
   {
-    path: '/', // Ruta predeterminada
+    path: '/', 
     name: 'Home',
-    component: Home, // Página asociada
+    component: Home, 
     children: [
       {
         path: '',
-        component: ListaProductos, // Vista inicial cuando no hay ruta específica
+        component: ListaProductos, 
       },
       {
         path: 'carrito',
-        component: CarritoCompras, // Vista del carrito
+        component: CarritoCompras, 
       },
     ]
   },
   {
-    path: '/about', // Otra ruta
+    path: '/about', 
     name: 'About',
     component: About,
   },
   {
-    path: '/contacto', // Otra ruta
+    path: '/contacto', 
     name: 'Contacto',
     component: Contacto,
   },
   {
-    path: '/login', // Otra ruta
+    path: '/login', 
     name: 'Login',
     component: Login,
   },
   {
-    path: '/registro', // Otra ruta
+    path: '/registro', 
     name: 'Registro',
     component: Registro,
   },  
   {
-    path: '/alphine', // Otra ruta
+    path: '/alphine', 
     name: 'Alphine',
     component: Alphine,
     children: [
       {
         path: '',
-        component: ListaProductosAlphine, // Vista inicial cuando no hay ruta específica
+        component: ListaProductosAlphine, 
       },
       {
         path: 'carrito',
-        component: CarritoCompras, // Vista del carrito
+        component: CarritoCompras, 
       },
     ]
   },
   {
-    path: '/williams', // Otra ruta
+    path: '/williams', 
     name: 'Williams',
     component: Williams,
     children: [
       {
         path: '',
-        component: ListaProductosWilliams, // Vista inicial cuando no hay ruta específica
+        component: ListaProductosWilliams, 
       },
       {
         path: 'carrito',
-        component: CarritoCompras, // Vista del carrito
+        component: CarritoCompras, 
       },
     ]
   },
   {
-    path: '/articuloscoleccion', // Otra ruta
+    path: '/articuloscoleccion', 
     name: 'ArticulosColeccion',
     component: ArticulosColeccion,
     children: [
       {
         path: '',
-        component: ListaProductosArticulosColeccion, // Vista inicial cuando no hay ruta específica
+        component: ListaProductosArticulosColeccion, 
       },
       {
         path: 'carrito',
-        component: CarritoCompras, // Vista del carrito
+        component: CarritoCompras, 
       },
     ]
   },
@@ -100,7 +100,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(), // Usar el historial del navegador
+  history: createWebHistory(), 
   routes,
 });
 

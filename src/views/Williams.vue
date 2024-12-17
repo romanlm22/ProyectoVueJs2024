@@ -1,4 +1,3 @@
-<!-- src/views/About.vue -->
 <template>
 <body style="background-color: beige;">
   <div id="app">
@@ -37,10 +36,6 @@
                         <a href="" class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></a>
                         <router-link to="/carrito"><img class="header-user" src="https://cdn-icons-png.flaticon.com/256/3144/3144456.png" alt=""></router-link>
                     </div>
-                    <!--<form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-danger" type="submit">Buscar</button>
-                    </form>-->
                   </div>
                 </div>
               </nav>
@@ -51,8 +46,7 @@
       <div class="carousel-item active escuderias-img">
         <img src="https://cdn.williamsf1.tech/images/fnx611yr/production/ff454bb2b4adb541b66477adcb49088f8de0fb4a-2400x2400.jpg?rect=0,572,2400,1256&w=1200&h=628&auto=format" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <!--
-          -->  
+
         </div>
       </div>
     </div>
@@ -62,7 +56,7 @@
 
 
       <div id="williams">
-      <router-view /> <!-- Aquí se cargará la vista correspondiente -->
+      <router-view /> 
     </div>
   
 <div class="whatsapp-container">

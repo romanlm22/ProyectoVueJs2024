@@ -1,4 +1,4 @@
-<!-- src/views/About.vue -->
+
 <template>
 <body style="background-color: bisque;">
     <div id="app">
@@ -37,10 +37,6 @@
                         <a href="" class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></a>
                         <router-link to="/carrito"><img class="header-user" src="https://cdn-icons-png.flaticon.com/256/3144/3144456.png" alt=""></router-link>
                     </div>
-                    <!--<form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-danger" type="submit">Buscar</button>
-                    </form>-->
                   </div>
                 </div>
               </nav>
@@ -171,10 +167,6 @@ h1{
     box-sizing: border-box;
 }
 .card-container {
-    /*display: flex;
-    flex-wrap: wrap;
-    gap: .5rem;
-    padding: 1rem;*/
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(min(340px,100%),1fr));
     gap: 1rem;
@@ -225,7 +217,6 @@ h1{
     background-image: linear-gradient(to right, rgba(0,0,0,.65), rgba(0,0,0,.35));
     color: white;
     transition: .25s;
-    /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75); */
 }
 
 .card:hover .card-header .card-img-info {
@@ -252,18 +243,13 @@ h1{
 .card-main h2 {
     border-bottom: 3px solid dodgerblue;
     padding-bottom: 1px;
-    /* text-decoration: underline 3px solid dodgerblue;
-    text-underline-offset: 8px; */
 }
 .card-main .card-description {
     flex: 1;
 }
 .card-main p {
-    /* padding: 8px 0; */
     margin: 8px 0;
     line-height: 14px;
-    /* overflow-y: scroll;
-    max-height: 106px; */
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 6;
@@ -391,7 +377,6 @@ footer {
 
     position: fixed;
     right: 1rem;
-    /* width: 100%; */
     bottom: 16px;
 }
 

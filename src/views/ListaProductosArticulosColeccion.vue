@@ -64,21 +64,21 @@ export default defineComponent({
 <style scoped>
 .productos {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Tres columnas */
-  gap: 20px; /* Espaciado entre las tarjetas */
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
   padding: 20px;
   margin-top: 20px;
 }
 
 @media (max-width: 768px) {
   .productos {
-    grid-template-columns: repeat(2, 1fr); /* Dos columnas en pantallas pequeñas */
+    grid-template-columns: repeat(2, 1fr); 
   }
 }
 
 @media (max-width: 480px) {
   .productos {
-    grid-template-columns: 1fr; /* Una columna en pantallas muy pequeñas */
+    grid-template-columns: 1fr; 
   }
 }
 </style>
