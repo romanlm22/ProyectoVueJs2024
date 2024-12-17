@@ -1,7 +1,7 @@
-// src/router/index.js
+
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from '../views/HomeView.vue'; // Importa tu página de inicio
-import About from '../views/AboutView.vue'; // Otra página
+import Home from '../views/HomeView.vue'; 
+import About from '../views/AboutView.vue'; 
 import Contacto from '@/views/Contacto.vue';
 import Login from '@/views/Login.vue';
 import Registro from '@/views/Registro.vue';
