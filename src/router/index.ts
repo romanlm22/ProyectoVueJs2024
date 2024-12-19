@@ -25,11 +25,12 @@ const routes = [
         path: '',
         component: ListaProductos, 
       },
-      {
-        path: 'carrito',
-        component: CarritoCompras, 
-      },
-    ]
+    ],
+  },
+  {
+    path: '/carrito',
+    name: 'Carrito',
+    component: CarritoCompras, 
   },
   {
     path: '/about', 
@@ -50,7 +51,7 @@ const routes = [
     path: '/registro', 
     name: 'Registro',
     component: Registro,
-  },  
+  },
   {
     path: '/alphine', 
     name: 'Alphine',
@@ -60,11 +61,7 @@ const routes = [
         path: '',
         component: ListaProductosAlphine, 
       },
-      {
-        path: 'carrito',
-        component: CarritoCompras, 
-      },
-    ]
+    ],
   },
   {
     path: '/williams', 
@@ -75,11 +72,7 @@ const routes = [
         path: '',
         component: ListaProductosWilliams, 
       },
-      {
-        path: 'carrito',
-        component: CarritoCompras, 
-      },
-    ]
+    ],
   },
   {
     path: '/articuloscoleccion', 
@@ -90,13 +83,8 @@ const routes = [
         path: '',
         component: ListaProductosArticulosColeccion, 
       },
-      {
-        path: 'carrito',
-        component: CarritoCompras, 
-      },
-    ]
+    ],
   },
-  
 ];
 
 const router = createRouter({
@@ -105,3 +93,4 @@ const router = createRouter({
 });
 
 export default router;
+

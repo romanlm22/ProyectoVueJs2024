@@ -34,6 +34,7 @@
   })
   </script>
   
+
   <style scoped>
   .card {
     background-color: white;
@@ -94,4 +95,3 @@
     background-color: #218838;
   }
   </style>
-  

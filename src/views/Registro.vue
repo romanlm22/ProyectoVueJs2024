@@ -48,19 +48,19 @@
                   <form>
                       <div class="mb-3">
                           <label for="full-name" class="form-label">Nombre y Apellido</label>
-                          <input type="text" class="form-control" id="full-name" placeholder="Enter your full name">
+                          <input type="text" class="form-control" id="full-name" placeholder="Introduzca su nombre y apellido completos">
                       </div>
                       <div class="mb-3">
                           <label for="email" class="form-label">Correo Electrónico</label>
-                          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                          <input type="email" class="form-control" id="email" placeholder="ajemplo@ejemplo.com">
                       </div>
                       <div class="mb-3">
                           <label for="password" class="form-label">Contraseña</label>
-                          <input type="password" class="form-control" id="password" placeholder="Create a password">
+                          <input type="password" class="form-control" id="password" placeholder="Crea una contraseña segura">
                       </div>
                       <div class="mb-3">
                           <label for="confirm-password" class="form-label">Confirma Contraseña</label>
-                          <input type="password" class="form-control" id="confirm-password" placeholder="Confirm your password">
+                          <input type="password" class="form-control" id="confirm-password" placeholder="Confirma contraseña">
                       </div>
                       <div class="form-check mb-3">
                           <input class="form-check-input" type="checkbox" id="terms">
